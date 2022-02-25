@@ -1,0 +1,199 @@
+/* Universal Selecter*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*CSS stylinng for the body */
+body {
+  background-color: #0D192C;
+  margin: 0;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-family: 18px;
+  font-family: "Outfit", sans-serif;
+}
+
+/*CSS styling for the NFT Card */
+.card {
+  background-color: #15263F;
+  position: relative;
+  width: 350px;
+  height: 596px;
+  margin: auto;
+  border-radius: 10px;
+  color: white;
+}
+
+/*CSS styling for the Equilibrium image */
+.eq {
+  display: block;
+  margin: 20px auto 30px auto;
+  width: 302px;
+  height: 302px;
+  border-radius: 10px;
+  position: relative;
+}
+
+/*CSS styling for cyan colour when curser is put on Equilibrium image */
+.cyanEffect {
+  position: absolute;
+  width: 302px;
+  height: 302px;
+  border-radius: 10px;
+  opacity: 0.5;
+  background-color: cyan;
+  left: 24px;
+  bottom: 274px;
+}
+
+/*CSS styling for the eye image */
+.eye {
+  display: block;
+  position: absolute;
+  width: 48px;
+  opacity: 0.5;
+  left: 125px;
+  top: 130px;
+}
+
+/*CSS styling for the Mouse efect */
+.mouseEffect {
+  opacity: 0;
+}
+
+/*CSS hover effect */
+.mouseEffect:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+/*CSS styling for the h1*/
+.heading {
+  position: relative;
+  left: 24px;
+
+  /* font css */
+  font-family: Outfit;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+}
+
+/*CSS hover styling */
+.heading:hover {
+  cursor: pointer;
+  color: cyan;
+}
+
+/*CSS styling for the Paragraph */
+.para1 {
+  display: block;
+  width: 302px;
+  left: 24px;
+  margin: 10px auto 10px auto;
+  color: #8BACD9;
+
+    /* font css */
+  font-family: Outfit;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+/*CSS styling for the div class eth */
+.ETH {
+  position: relative;
+  margin: 20px auto 14px auto;
+  width: 270px;
+  height: 30px;
+
+  /* font css */
+font-weight: 300;
+  font-size: 16px;
+}
+
+/*CSS styling for the ethereum image*/
+.altcoin {
+  position: absolute;
+  right: 275px;
+}
+
+/*CSS styling for the Paragraph */
+.para2 {
+  color: cyan;
+
+    /* font css */
+    font-family: Outfit;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 20px;
+
+}
+
+/*CSS styling for the clock image */
+.Time {
+  position: absolute;
+  left: 160px;
+  bottom: 9px;
+}
+
+/*CSS styling for the Paragraph */
+.para3 {
+  position: absolute;
+  left: 180px;
+  color: #8BACD9;
+  bottom: 9px;
+}
+
+/*CSS styling for the line div */
+.line1 {
+  width: 300px;
+  background: #2E405A;
+  border-top: #2E405A solid 0.01px;
+  margin: 0 auto 20px auto;
+}
+
+/*CSS styling for the bottom div */
+.bottom {
+  position: relative;
+  width: 300px;
+  height: 20px;
+}
+
+/*CSS styling for the avatar */
+.avatar {
+  position: absolute;
+  width: 33px;
+  left: 27px;
+}
+
+/*CSS styling for the Paragraph */
+.para4 {
+  position: absolute;
+  left: 70px;
+
+  /* font css */
+  font-family: Outfit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #8BACD9;
+}
+
+/*CSS styling for the span */
+.span1 {
+  color: #FFFFFF;
+}
+
+.span1:hover {
+  color: cyan;
+  cursor: pointer;
+}
